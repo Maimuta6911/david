@@ -1,0 +1,54 @@
+body, html {
+    height: 100%;
+  }
+  
+  .bg { 
+    /* The image used */
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .login-container {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-form {
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  
+  .login-form input[type="text"],
+  .login-form input[type="password"] {
+    width: 100%;
+    border: 1px solid rgb(176, 26, 26);
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding: 8px;
+  }
+  
+  .login-form input[type="submit"] {
+    width: 100%;
+    background-color: #a83333;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 8px;
+    cursor: pointer;
+  }
+  
